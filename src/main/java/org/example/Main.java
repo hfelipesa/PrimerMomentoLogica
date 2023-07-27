@@ -83,10 +83,10 @@ public class Main {
 
         System.out.println("******bienvenido a su Boleta Online ******");
 
-        System.out.print("Señor usuario por favor digite su nombre: ");
+        System.out.print("Señor usuario por favor digite su nombre completo: ");
         nombre=teclado.nextLine();
 
-        System.out.print("Señor usuario por favor digite sus apallidos: ");
+        System.out.print("Señor usuario por favor digite sus apallidos completos: ");
         apellido= teclado.nextLine();
 
         System.out.print("Por favor ingrese su edad:");

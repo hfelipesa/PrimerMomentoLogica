@@ -81,32 +81,33 @@ public class Main {
         Integer valorBoleta=450000;
         Integer numeroDeBoletas;
 
-        System.out.println("******venido a su Boleta Online ******");
+        System.out.println("******bienvenido a su Boleta Online ******");
 
-        System.out.println("Señor usuario por favor digite su nombre: ");
+        System.out.print("Señor usuario por favor digite su nombre: ");
         nombre=teclado.nextLine();
 
-        System.out.println("Señor usuario por favor digite sus apallidos: ");
+        System.out.print("Señor usuario por favor digite sus apallidos: ");
         apellido= teclado.nextLine();
 
-        System.out.println("Por favor ingrese su edad:");
+        System.out.print("Por favor ingrese su edad:");
         edad=teclado.nextInt();
 
-        System.out.println("Por favor ingrese su numero de cedula:");
+        System.out.print("Por favor ingrese su numero de cedula:");
         cedula= teclado.nextInt();
+
 
         System.out.println("Por favor ingrese su ciudad: ");
         ciudad= teclado.nextLine();
 
-        System.out.println("digite cuantas boletas deseas comprar:");
+        System.out.print("digite cuantas boletas deseas comprar:");
         numeroDeBoletas= teclado.nextInt();
 
         Integer totalPagarBoletas=numeroDeBoletas*valorBoleta;
 
         if (edad>=18 && numeroDeBoletas<=4){
-            System.out.println("Señor usuario gracias por su compra su valor a pagar por la cantidad de voletas es: "+totalPagarBoletas);
+            System.out.print("Señor usuario gracias por su compra su valor a pagar por la cantidad de boletas es: "+totalPagarBoletas);
         } else{
-            System.out.println("Señor usuario ud no comple con la edad permitida para el evento");
+            System.out.print("Señor usuario ud no comple con los requisitos permitidos para el evento");
         }
 
 

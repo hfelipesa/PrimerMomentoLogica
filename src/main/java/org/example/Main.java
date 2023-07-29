@@ -18,7 +18,7 @@ public class Main {
         Double comprasOtros;
         Integer puntajeCredito;
 
-        //Inicializando variables para ingreso datos por teclado
+        //Inicializando variables para ingreso datos por teclado......
 
 
         System.out.print("Señor usuario por favor ingrese nombre completo: ");
@@ -95,11 +95,11 @@ public class Main {
         System.out.print("Por favor ingrese su numero de cedula:");
         cedula= teclado.nextInt();
 
-
-        System.out.println("Por favor ingrese su ciudad: ");
+        ciudad= teclado.nextLine();
+        System.out.print("Por favor ingrese su ciudad: ");
         ciudad= teclado.nextLine();
 
-        System.out.print("digite cuantas boletas deseas comprar:");
+        System.out.print("digite numero de boletas que deseas comprar:");
         numeroDeBoletas= teclado.nextInt();
 
         Integer totalPagarBoletas=numeroDeBoletas*valorBoleta;
@@ -107,7 +107,7 @@ public class Main {
         if (edad>=18 && numeroDeBoletas<=4){
             System.out.print("Señor usuario gracias por su compra su valor a pagar por la cantidad de boletas es: "+totalPagarBoletas);
         } else{
-            System.out.print("Señor usuario ud no comple con los requisitos permitidos para el evento");
+            System.out.print("Señor usuario usted no comple con los requisitos para el evento");
         }
 
 
